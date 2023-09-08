@@ -1,0 +1,86 @@
+body {
+    background-color: #18191A; 
+    color: #fff; 
+    margin: 0; 
+}
+
+.container {
+    background-image: linear-gradient(45deg, #00A2FF, #FF8C00); 
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s; 
+  }
+  
+  .container:hover {
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+
+.thread-item {
+    background-color: #18191A; 
+    border-radius: 5px;
+    padding: 15px;
+    display: block; 
+    width: 100%; 
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+}
+
+.thread-item h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.thread-item p {
+    color: #ccc; 
+}
+
+.create-thread-btn {
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-thread-btn:hover {
+    background-image: linear-gradient(45deg, #00A2FF, #FF8C00);
+}
+
+/* Sticky Create Thread Button */
+.sticky-btn {
+    position: sticky;
+    top: 20px; 
+    z-index: 1;
+    background-color: #18191A; 
+}
+
+.timestamp {
+    font-size: small;
+}
+
+.thread-info {
+    width: fit-content;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    flex-grow: 1;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333; 
+}
+
+p {
+  font-size: 16px;
+  color: #777; 
+}
+  
